@@ -179,7 +179,7 @@ state={
             <Input type="text" value={tab} disabled/>
             {this.state.title ==='dodawanie' ?  <Input type="text" value="+" disabled/> : <Input type="text" value="-" disabled/>}
             <Input type="text" value={tablica2[i]}   disabled/>
-            <Input type="text" pattern="[0-9]" id={i} className="wyn" onKeyPress={(e ) => this.checkk(e,i,tab,tablica2[i], this.state.title)}/>
+            <Input type="number" id={i} className="wyn" onKeyPress={(e ) => this.checkk(e,i,tab,tablica2[i], this.state.title)}/>
             <Button onClick={(e) => this.check(e,i,tab,tablica2[i],this.state.title)} >Sprawdź</Button>
               <div id={i+'wynik'} className="odpowiedz" style={{fontStyle: 'italic', color: 'red'}}>
 
