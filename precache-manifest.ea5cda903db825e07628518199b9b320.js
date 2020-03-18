@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e9116169c1f549189d38",
+    "revision": "096466303710ddab3e7d",
     "url": "/cwicz-matme/static/css/main.d69242a0.chunk.css"
   },
   {
-    "revision": "e9116169c1f549189d38",
-    "url": "/cwicz-matme/static/js/main.d1a1a0c9.chunk.js"
+    "revision": "096466303710ddab3e7d",
+    "url": "/cwicz-matme/static/js/main.ccdd3d12.chunk.js"
   },
   {
     "revision": "4d14f50e6436230724c4",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/cwicz-matme/static/js/2.fc475a00.chunk.js"
   },
   {
-    "revision": "63cb5188eabf06491a2e016561186fcd",
+    "revision": "0e1bf41de95ca6537cdb0b5651c4e05f",
     "url": "/cwicz-matme/index.html"
   }
 ];
