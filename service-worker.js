@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cwicz-matme/precache-manifest.ea5cda903db825e07628518199b9b320.js"
+  "/cwicz-matme/precache-manifest.ad8c1df526a9989fd634be77889cb19d.js"
 );
 
 workbox.clientsClaim();

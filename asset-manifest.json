@@ -1,13 +1,13 @@
 {
-  "main.css": "/cwicz-matme/static/css/main.d69242a0.chunk.css",
-  "main.js": "/cwicz-matme/static/js/main.ccdd3d12.chunk.js",
-  "main.js.map": "/cwicz-matme/static/js/main.ccdd3d12.chunk.js.map",
+  "main.css": "/cwicz-matme/static/css/main.1bc43bd8.chunk.css",
+  "main.js": "/cwicz-matme/static/js/main.a54c1af3.chunk.js",
+  "main.js.map": "/cwicz-matme/static/js/main.a54c1af3.chunk.js.map",
   "runtime~main.js": "/cwicz-matme/static/js/runtime~main.8119418c.js",
   "runtime~main.js.map": "/cwicz-matme/static/js/runtime~main.8119418c.js.map",
   "static/js/2.fc475a00.chunk.js": "/cwicz-matme/static/js/2.fc475a00.chunk.js",
   "static/js/2.fc475a00.chunk.js.map": "/cwicz-matme/static/js/2.fc475a00.chunk.js.map",
   "index.html": "/cwicz-matme/index.html",
-  "precache-manifest.ea5cda903db825e07628518199b9b320.js": "/cwicz-matme/precache-manifest.ea5cda903db825e07628518199b9b320.js",
+  "precache-manifest.ad8c1df526a9989fd634be77889cb19d.js": "/cwicz-matme/precache-manifest.ad8c1df526a9989fd634be77889cb19d.js",
   "service-worker.js": "/cwicz-matme/service-worker.js",
-  "static/css/main.d69242a0.chunk.css.map": "/cwicz-matme/static/css/main.d69242a0.chunk.css.map"
+  "static/css/main.1bc43bd8.chunk.css.map": "/cwicz-matme/static/css/main.1bc43bd8.chunk.css.map"
 }
