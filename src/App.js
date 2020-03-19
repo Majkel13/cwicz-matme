@@ -4,8 +4,8 @@ import styled from 'styled-components'
 
 const Input = styled.input`
 width: 40px;
-background: #fff333;
 text-align:center;
+background: #ddd;
 font-size: 20px;
 margin: 5px;
 border: 0;
@@ -20,19 +20,34 @@ const Container = styled.div`
 text-align: center;
 margin: auto;
 font-size: 20px;
-
+`
+const Inputt = styled.input`
+width: 40px;
+text-align:center;
+background: bisque;
+font-size: 20px;
+margin: 5px;
+border: 0;
+font-family: 'Indie Flower', cursive;
+font-weight: 600;
+    margin: 4px ;
+    background-position: 0 0px;
+    background-image: -webkit-repeating-linear-gradient(0deg, #80DFFF, #80DFFF 1px, transparent 1px, transparent 15px), -webkit-repeating-linear-gradient(90deg, #80DFFF, #80DFFF 1px, transparent 1px, transparent 15px);
+    background-image: repeating-linear-gradient(0deg, #80DFFF, #80DFFF 1px, transparent 1px, transparent 15px), repeating-linear-gradient(90deg, #80DFFF, #80DFFF 1px, transparent 1px, transparent 15px);
 `
 
+
 const Button = styled.button`
-font-size: 20px;
+font-size: 16px;
 border-radius: 15px;
 padding: 5px 14px;
 background: #333;
 color: bisque;
+border: 0;
 `
 const Select = styled.select`
 font-size: 20px;
-background: #fff333;
+background: bisque;
 
 margin: 4px ;
     background-position: 0 0px;
@@ -172,14 +187,14 @@ state={
         <h3>Poćwicz {this.state.title}</h3> 
         
         Wybierz ile zadań chcesz zrobić
-          <Input id="ilosc" type="number" max="40" min="1"/>
+          <Inputt id="ilosc" type="number" max="40" min="1"/>
           <Button onClick={this.generuj}>Generuj</Button>
           <div>
           {tablica.map((tab,i) =><div> 
             <Input type="text" value={tab} disabled/>
             {this.state.title ==='dodawanie' ?  <Input type="text" value="+" disabled/> : <Input type="text" value="-" disabled/>}
             <Input type="text" value={tablica2[i]}   disabled/>
-            <Input type="number" id={i} className="wyn" onKeyPress={(e ) => this.checkk(e,i,tab,tablica2[i], this.state.title)}/>
+            <Inputt  type="number" id={i} className="wyn" onKeyPress={(e ) => this.checkk(e,i,tab,tablica2[i], this.state.title)}/>
             <Button onClick={(e) => this.check(e,i,tab,tablica2[i],this.state.title)} >Sprawdź</Button>
               <div id={i+'wynik'} className="odpowiedz" style={{fontStyle: 'italic', color: 'red'}}>
 
@@ -198,15 +213,10 @@ state={
 
 class App extends Component {
 
-
-
-   render(){
-     
+   render(){     
       return (
       <div >
-         
-         
-          <Row ile={this.ile} title={this.title}/>
+          <Row />
       </div>
     );
    }
